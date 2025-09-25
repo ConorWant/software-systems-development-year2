@@ -4,10 +4,15 @@ public class Driver
 {
     public static void main(String[] args)
     {
-        Rectangle r1 = new Rectangle();
-        r1.setWidth(4);
-        r1.setHeight(4);
-        System.out.println(r1.getArea());
+        for (int i = 0; i < 10; i++)
+        {
+            Rectangle rect = new Rectangle();
+            rect.setWidth((int) (Math.random() * 101));
+            rect.setHeight((int) (Math.random() * 101));
+            int area = rect.getArea();
+            System.out.println("The area of rectangle " + i +" is " + area);
+        }
+
     }
 
 
