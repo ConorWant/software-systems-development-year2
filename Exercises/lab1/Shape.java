@@ -15,7 +15,7 @@ abstract class Shape
     /**
      * The number of sides within the shape.
      *
-     * Uses 'private' visablility modifier. . Could use 'protected' so it can be accessed by sub-classess.
+     * Uses 'private' visibility modifier. Could use 'protected' so it can be accessed by subclasses.
      */
     private int sides;
 
@@ -30,7 +30,7 @@ abstract class Shape
     }
 
     /**
-     * Sets the numer of sides within the shape.
+     * Sets the number of sides within the shape.
      *
      * @param sides the number of sides within the shape.
      */
