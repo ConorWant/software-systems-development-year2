@@ -33,7 +33,12 @@ public class Rectangle extends Shape
         return width * height;
     }
 
-
+@Override
+    public String toString()
+{
+    return "The rectangle has a width of " + getWidth() + ", a height of " + getHeight() + ", an area of " + getArea()
+            + " and has " + getSides() + " sides";
+}
 
 
 }

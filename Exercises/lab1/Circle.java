@@ -23,4 +23,9 @@ public class Circle extends Shape
         return (int) (radius * radius * Math.PI);
     };
 
+    @Override
+    public String toString()
+    {
+        return "The circle has a radius of " + radius + ", an area of " + getArea() + " and " + getSides() + " sides.";
+    }
 }
