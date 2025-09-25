@@ -34,8 +34,11 @@ abstract class Shape
      *
      * @param sides the number of sides within the shape.
      */
+    public void setSides(int sides)
+    {
+        this.sides = sides; // use this.sides to distinguish between parameter and attribute.
+    }
     abstract public int getArea();
-
     /**
      * Constructor.
      *
